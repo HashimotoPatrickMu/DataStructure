@@ -16,3 +16,11 @@ class solution:
             else:
                 return middle
         return -1
+
+if __name__ == "__main__":
+    nums = [1,2,3,4,6,8,10,13,15]
+    target = 7
+    func = solution()
+    res = func.forawrd(nums, target)
+    print(res)
+    print(nums[res])
